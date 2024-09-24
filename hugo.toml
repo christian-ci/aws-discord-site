@@ -1,0 +1,28 @@
+baseURL = "https://awsdiscord.com"
+languageCode = "en-us"
+title = "Amazon Web Services Discord Community"
+
+[params]
+  description = "An Unofficial AWS Discord Community"
+  author = "Your Name"
+
+# Menu configuration
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "channels"
+  name = "Channels"
+  url = "/channels/"
+  weight = 2
+
+[[menu.main]]
+  identifier = "contact"
+  name = "Contact"
+  url = "/contact/"
+  weight = 3
+
+# Add any theme-specific parameters here
